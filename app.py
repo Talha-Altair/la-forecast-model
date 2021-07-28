@@ -46,7 +46,7 @@ def intern(n):
 
 st.title('Learning Analytics Forecast')
 
-name = st.text_area('Enter Intern Name')
+name = st.text_input('Enter Featureprenuer Name')
 
 if st.button('Forecast'):
     try:
